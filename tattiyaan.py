@@ -22,3 +22,10 @@ df2 = pd.DataFrame(
  np.random.randn(10,20),
  columns=('col %d' % i for i in range(20)))
 st.table(df2)
+
+
+#find square using a widget
+
+x = st.slider('x')
+st.write(x,'squared is', x * x )
+
