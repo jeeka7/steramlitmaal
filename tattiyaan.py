@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.write("Here our attempt at using data to create a table")
+st.write("Fun activity of 10th maths class")
 
 #find square using a widget
 
