@@ -26,6 +26,6 @@ st.table(df2)
 
 #find square using a widget
 
-x = st.slider('x')
-st.write(x,'squared is', x * x )
+x = st.slider('y')
+st.write(y,'squared is', y * y )
 
