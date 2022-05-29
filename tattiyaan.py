@@ -8,9 +8,17 @@ st.write(pd.DataFrame({
  'second column' : [10,20,30,40]
 }))
 
+#highlighting max value
 
 dataframe = pd.DataFrame(
  np.random.randn(10,20),
  columns= ('col %d' % i for i in range (20)))
 
 st.dataframe(dataframe.style.highlight_max(axis=0))
+
+#static table
+
+df2 = pd.DataFrame(
+ np.random.randn(10,20),
+ columns=('col %d' % i for i in range(20)))
+st.table(df2)
