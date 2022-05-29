@@ -18,4 +18,3 @@ if st.button('Are you a happy person?'):
      st.write('Good for you , go make others happy ')
  else:
      st.write('Start doing what makes you happy')
-Copy
